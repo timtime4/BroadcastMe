@@ -13,6 +13,8 @@
 		5E6780F11B1BDD8100ACC471 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E6780F01B1BDD8100ACC471 /* Images.xcassets */; };
 		5E6780F41B1BDD8100ACC471 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E6780F21B1BDD8100ACC471 /* LaunchScreen.xib */; };
 		5E6781001B1BDD8100ACC471 /* BroadcastMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6780FF1B1BDD8100ACC471 /* BroadcastMeTests.swift */; };
+		5E81F11B1B3CE6E8003FCD88 /* SongListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E81F11A1B3CE6E8003FCD88 /* SongListViewController.swift */; };
+		5E81F11D1B3CEB3C003FCD88 /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E81F11C1B3CEB3C003FCD88 /* FindFriendsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		5E6780F91B1BDD8100ACC471 /* BroadcastMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BroadcastMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E6780FE1B1BDD8100ACC471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E6780FF1B1BDD8100ACC471 /* BroadcastMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastMeTests.swift; sourceTree = "<group>"; };
+		5E81F11A1B3CE6E8003FCD88 /* SongListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongListViewController.swift; sourceTree = "<group>"; };
+		5E81F11C1B3CEB3C003FCD88 /* FindFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindFriendsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				5E6780E91B1BDD8100ACC471 /* AppDelegate.swift */,
 				5E6780EB1B1BDD8100ACC471 /* ViewController.swift */,
 				5E6780ED1B1BDD8100ACC471 /* Main.storyboard */,
+				5E81F11C1B3CEB3C003FCD88 /* FindFriendsViewController.swift */,
+				5E81F11A1B3CE6E8003FCD88 /* SongListViewController.swift */,
 				5E6780F01B1BDD8100ACC471 /* Images.xcassets */,
 				5E6780F21B1BDD8100ACC471 /* LaunchScreen.xib */,
 				5E6780E71B1BDD8100ACC471 /* Supporting Files */,
@@ -212,7 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E81F11D1B3CEB3C003FCD88 /* FindFriendsViewController.swift in Sources */,
 				5E6780EC1B1BDD8100ACC471 /* ViewController.swift in Sources */,
+				5E81F11B1B3CE6E8003FCD88 /* SongListViewController.swift in Sources */,
 				5E6780EA1B1BDD8100ACC471 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +419,7 @@
 				5E6781051B1BDD8100ACC471 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E6781061B1BDD8100ACC471 /* Build configuration list for PBXNativeTarget "BroadcastMeTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				5E6781081B1BDD8100ACC471 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
